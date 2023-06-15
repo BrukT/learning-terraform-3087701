@@ -4,5 +4,6 @@ output "environment_url" {
 }
 
 output "security_group_name" {
-    value = module.blog_sg.security_group_name
+    value       = module.blog_sg.security_group_name
+    description = "security group Name"
 }
