@@ -1,5 +1,5 @@
 output "environment_url" {
-    value = module.blog_alb.load_balancer_dns_name
+    value = module.blog_alb.lb_dns_name
 }
 
 output "security_group_id" {
